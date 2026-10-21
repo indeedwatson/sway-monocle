@@ -5,11 +5,6 @@ Bring bspwm's monocle mode to sway, with a few tweaks:
 - Additionally, with the option --right-toggle it only alternates between tabbed and tiled in the right-most split of the workspace
 
 # Usage
-Just put the script somewhere (like `~/bin` or `~/.config/sway/scripts` and bind it:
-
-```
-chmod +x ~/.config/sway/monocle.py
-```
 
 Add this to your `~/.config/sway/config`:
 ```
