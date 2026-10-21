@@ -8,6 +8,11 @@ Bring bspwm's monocle mode to sway, with a few tweaks:
 Just put the script somewhere (like `~/bin` or `~/.config/sway/scripts` and bind it:
 
 ```
+chmod +x ~/.config/sway/monocle.py
+```
+
+Add this to your `~/.config/sway/config`:
+```
     bindsym $mod+c exec python ~/.config/sway/monocle.py
     bindsym $mod+e exec python ~/.config/sway/monocle.py --right-toggle
 ```
